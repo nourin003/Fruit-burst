@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Burst</title>
+    <!--tailwind & daisy UI-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!--icon-->
+<script src="https://kit.fontawesome.com/bb480e9b42.js" crossorigin="anonymous"></script>
+<!--font style-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+    .font-lato{
+        font-family: 'Lato', sans-serif;
+    }
+</style>
+<!--customs-->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+           'text-color': '#FFF',
+           
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-lato">
+    <header>
+         <nav class="lg:px-44 py-8 ">
+            
+                <div class="lg:flex justify-between items-center  lg: bg-[#F85559] mx-auto px-5 lg:rounded-full">
+                  <div class="flex justify-around items-center list-none gap-x-7  text-[#FFF] text-lg font-normal ">
+                    
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Shop</li>
+                    <li>All Fruits</li>
+                  
+                </div>
+                  <div class="flex justify-center items-center gap-x-5">
+                    <img src="images/logo.png" alt="">
+                    <h3 class="font-medium text-3xl text-[#FFF]">Fruit Burst</h3>
+                  </div>
+                
+                
+                  <div class="py-8 ">
+                   
+                    <input type="text" placeholder="Search here" class="input rounded-full  w-80 md:w-auto relative" />
+                    <i class="fa-solid fa-magnifying-glass absolute pt-5 left-100"></i>
+                  </div>
+                  
+                
+              </div>
+         </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
